@@ -1,0 +1,35 @@
+body {
+    font-family: sans-serif;
+    background: #0d0d0d;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: gold;
+    color: black;
+  }
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1rem;
+    padding: 2rem;
+  }
+  .product-card {
+    background: #1a1a1a;
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  .form-box {
+    padding: 2rem;
+  }
+  input, button {
+    display: block;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 100%;
+  }
+  
